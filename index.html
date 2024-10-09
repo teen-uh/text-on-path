@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text on path</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <svg id="text-container" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1269.89 773.43" width="80%" height="50%">
+            <path id="text-curve" d="M.48.15s96.44 298.41 603 402c489 100 666 371 666 371" style="fill:none;stroke:none;" />
+            <text font-size="32">
+                <textPath id="text-path" href="#text-curve" startOffset="200">
+                    This is moving on a path
+                </textPath>
+            </text>
+        </svg>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
